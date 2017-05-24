@@ -35,7 +35,7 @@ h1, h2, h3, h4, h5, h6{
 }
 .section-padding
 {
-    padding: 60px 0px;
+    padding: 120px 0px;
 }
 #loader {
   position: absolute;
@@ -74,38 +74,32 @@ h1, h2, h3, h4, h5, h6{
 }
 
 @-webkit-keyframes animatebottom {
-  from { bottom:-100px; opacity:0 } 
+  from { bottom:-100px; opacity:0 }
   to { bottom:0px; opacity:1 }
 }
 
-@keyframes animatebottom { 
-  from{ bottom:-100px; opacity:0 } 
+@keyframes animatebottom {
+  from{ bottom:-100px; opacity:0 }
   to{ bottom:0; opacity:1 }
 }
 
 /***********************************
 ************************************
-HEADER 
+HEADER
 ************************************
 ***********************************/
 .header{
-    background: url('../img/bg-banner02.jpg') no-repeat fixed;
-    background-size: cover;
-    min-height: 650px;
-    position: relative;
 }
 .bg-color
 {
-    background-color: rgba(0, 0, 0, 0.5);
-    min-height: 650px;
 }
 #main-header
 {
 }
 .navbar-default {
-    background-color: transparent;
+		background: rgba(64,75,97, 0.9);
     border:0px;
-    padding: 20px 0; 
+    padding: 20px 0;
     transition: all 0.3s;
 }
 
@@ -115,7 +109,7 @@ HEADER
 }
 
 .top-nav-collapse {
-    padding: 0; 
+    padding: 0;
     background: rgba(64,75,97, 0.9);
 }
 
@@ -676,7 +670,7 @@ cta
     background-color: rgb(73, 84, 105);
 }
 .cta .cta-info {
-    
+
     width: 100%;
     float: left;
     padding: 30px 25px 30px 15px;
